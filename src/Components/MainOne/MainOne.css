@@ -1,0 +1,38 @@
+
+.img2{
+    width: 550px;
+    border-radius: 15px;
+}
+.MainOne{
+    width: 1050px;
+    height: 400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, color 0.3s ease;
+    
+}
+.MainOne:hover{
+    transform: scale(1.02);
+}
+.divMainOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.text2{
+    font-size:35px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #2196F3, #11ff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Roboto, sans-serif;
+    margin: 30px;
+}
+.text3{
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
